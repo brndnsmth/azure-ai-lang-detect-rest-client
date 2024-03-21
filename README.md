@@ -1,5 +1,9 @@
 # Azure AI Services - REST Client Example
 
+The Azure AI services APIs are designed on a REST architecture, which means that you can interact with them by crafting and sending JSON-formatted requests over the HTTP protocol. This approach provides a flexible and standardized way to communicate with the AI services.
+
+In the example below, we'll provide detailed steps to set up and run a console application that showcases the usage of the Language REST API for language detection. However, it's essential to note that the fundamental approach discussed here is applicable across all APIs supported by the Azure AI Services resource.
+
 1. Create a .env file.
 
 ```
@@ -42,10 +46,6 @@ By following these steps, you can efficiently set up and utilize Azure AI Servic
 
 
 ## REST Client Setup
-
-The Azure AI services APIs are designed on a REST architecture, which means that you can interact with them by crafting and sending JSON-formatted requests over the HTTP protocol. This approach provides a flexible and standardized way to communicate with the AI services.
-
-In the example below, we'll provide detailed steps to set up and run a console application that showcases the usage of the Language REST API for language detection. However, it's essential to note that the fundamental approach discussed here is applicable across all APIs supported by the Azure AI Services resource.
 
 To install this project, follow these steps:
 
