@@ -26,6 +26,13 @@ def main():
 
 
 def GetLanguage(text):
+    """
+    Given a text, this function sends an HTTP POST request to the Azure Text Analytics API to determine the language of the text. The function takes in a single parameter:
+
+    - text: A string representing the text to be analyzed.
+
+    The function returns nothing, but it prints the JSON request body, the JSON response from the API, and the detected language name for each document in the response. If an error occurs during the request, the function prints the error message.
+    """
     try:
         # Construct the JSON request body (a collection of documents, each with an ID and text)
         jsonBody = {"documents": [{"id": 1, "text": text}]}
