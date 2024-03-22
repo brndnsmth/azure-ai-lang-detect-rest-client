@@ -8,19 +8,6 @@ The Azure AI services APIs are designed on a REST architecture, which means that
 
 In the example below, we'll provide detailed steps to set up and run a console application that showcases the usage of the Language REST API for language detection. However, it's essential to note that the fundamental approach discussed here is applicable across all APIs supported by the Azure AI Services resource.
 
-1. Create a .env file.
-
-```
-touch .env
-```
-
-2. Add the following:
-
-```
-AI_SERVICE_ENDPOINT=YOUR_AI_SERVICES_ENDPOINT
-AI_SERVICE_KEY=YOUR_AI_SERVICES_KEY
-```
-
 ## Provision an Azure AI Services Resource
 
 To begin, follow these steps:
@@ -53,36 +40,51 @@ By following these steps, you can efficiently set up and utilize Azure AI Servic
 
 To install this project, follow these steps:
 
+
 1. **Clone the Repository:** Begin by cloning the project repository from GitHub. Execute the following command in your terminal or command prompt:
 
 ```
-git clone https://github.com/brndnsmth/azure-ai-rest-client.git
+git clone https://github.com/brndnsmth/azure-ai-rest-lang-detect-client.git
+cd azure-ai-rest-lang-detect-client
 ```
 
-2. **Create a Virtual Environment:** Utilize Python 3 to create a virtual environment for this project. This step ensures a clean and isolated environment for installing dependencies.
+2. **Environment File Setup:** Create the .env file.
+
+```
+touch .env
+```
+
+3. **Endpoint and Key:** Add the following, for now:
+
+```
+AI_SERVICE_ENDPOINT=YOUR_AI_SERVICES_ENDPOINT
+AI_SERVICE_KEY=YOUR_AI_SERVICES_KEY
+```
+
+4. **Create a Virtual Environment:** Utilize Python 3 to create a virtual environment for this project. This step ensures a clean and isolated environment for installing dependencies.
 
 ```
 python3 -m venv .venv
 ```
 
-3. **Activate the Virtual Environment:** Activate the virtual environment to isolate the project dependencies from other Python installations on your system.
+5. **Activate the Virtual Environment:** Activate the virtual environment to isolate the project dependencies from other Python installations on your system.
 
 ```
 source .venv/bin/activate
 ```
 
-4. **Install Dependencies:** While inside the virtual environment, install the required dependencies specified in the requirements.txt file using pip.
+6. **Install Dependencies:** While inside the virtual environment, install the required dependencies specified in the requirements.txt file using pip.
 
 ```
 pip install -r requirements.txt
 ```
 
-5. **Configuration Setup:** Update the .env file with your Access Keys and Endpoint. This step is crucial for authenticating requests and accessing the Azure AI services.
+7. **Configuration Setup:** Update the .env file with your Access Keys and Endpoint. This step is crucial for authenticating requests and accessing the Azure AI services.
 
-6. **Run the Client:** Execute the following command to run the client application:
+8. **Run the Client:** Execute the following command to run the client application:
 
 ```
 python rest-client.py
 ```
 
-6. **Input Text:** Follow the prompts provided by the client application. Enter the desired text when prompted for input. This step allows you to test the language detection functionality.
+9. **Input Text:** Follow the prompts provided by the client application. Enter the desired text when prompted for input. This step allows you to test the language detection functionality.
