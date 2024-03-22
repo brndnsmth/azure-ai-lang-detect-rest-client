@@ -1,4 +1,4 @@
-# Azure AI Services - REST Client Example
+# Azure AI Services - Language Detection - REST Client Example
 
 Notes while working through Microsoft's docs and [Learn](https://learn.microsoft.com/) material. Implementation of the REST client from Microsoft.
 
