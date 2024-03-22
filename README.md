@@ -44,8 +44,8 @@ To install this project, follow these steps:
 1. **Clone the Repository:** Begin by cloning the project repository from GitHub. Execute the following command in your terminal or command prompt:
 
 ```
-git clone https://github.com/brndnsmth/azure-ai-rest-lang-detect-client.git
-cd azure-ai-rest-lang-detect-client
+git clone https://github.com/brndnsmth/azure-ai-lang-detect-rest-client.git
+cd azure-ai-lang-detect-rest-client
 ```
 
 2. **Environment File Setup:** Create the .env file.
